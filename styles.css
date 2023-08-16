@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(res/Orbitron-VariableFont_wght.ttf);
+}
+
+html body {
+    width: 100%;
+
+    font-family: Orbitron;
+}
+
+.content {
+    margin: 2em auto 2em auto;
+    display: block;
+
+    text-align: center;
+}
+
+.content table {
+    display: inline-table;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.content table td p {
+    font-size: x-large;
+    margin: 0.5em 0.5em 0.2em;
+    padding: 0;
+}
+
+.content table td {
+    border: 1px solid #999;
+    margin: 0;
+    padding: 0 0 0.2em 0;
+}
+
+canvas {
+    border: 2px solid #999;
+}
